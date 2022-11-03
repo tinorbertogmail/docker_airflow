@@ -1,24 +1,12 @@
 # docker_airflow
---  Buscar Informações sobre agencias
-https://olinda.bcb.gov.br/olinda/servico/Informes_Agencias/versao/v1/odata/Agencias?$format=json
+Projeto para a aprendizagem do docker e apache airflow. 
 
--- Filtrar apenas o de belo horizonte 17972
+## Hello Docker
+Objetivo: Primeiros códigos com o Apache Airflow
+Primeiro código com uma Hello World utilizando o PythonOperator. 
+Imprimir em um log uma mensagem executada por uma função utilizando um PythonOperator.
 
--- Salvar as impormações em um banco postgress
-Nome 
-Segmento
-Endereco
-Numero
-Complemento 
-Bairro
-Cep 
-Minicipop
-UF
+## Buscar agências bancarias:
+Objetivo: Utilizar um operador Http e a variável XCOM
+Buscar os dados do serviço https://olinda.bcb.gov.br/olinda/servico/Informes_Agencias/versao/v1/odata/Agencias?$format=json fazer o tratamento e exibir o número de agencias bancarias na cidade de Belo Horizonte
 
-DummyOperator Inicio
-
--- Obter dados
--- verificar se foram contrados
--- carregar em um banco
-
-DummyOperator Final
