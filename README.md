@@ -19,4 +19,7 @@ Nome do arquivo: agencia_bancaria_dag.py
 Objetivo: Utilizar essa código como base para aprendizagem
 Buscar os dados de um serviço e determinar qual das criptmoedas tem um  variação maior. 
 
+### Buscar informações sobre o tempo:
+Objetivo: Obter os dados de um serviço de dados climaticos
+Buscar os dados do serviço e salvar em um arquivo
 
