@@ -32,7 +32,10 @@ Nome do arquivo: agencia_bancaria_dag.py
 ### Buscar criptmoedas:
 Objetivo: Utilizar essa código como base para aprendizagem
 Buscar os dados de um serviço e determinar qual das criptmoedas tem um  variação maior. 
+Utilizar o PythonOperator e HttpSensor para obter os dados do serviço de criptomoedas. Criar uma conexão http_coingecko_api com https://www.coingecko.com/en/api. 
+
 Nome do arquivo: diario_de_criptos_DAG.py 
+
 
 ### Buscar informações sobre o tempo:
 Objetivo: Obter os dados de um serviço de dados climáticos e salvar em arquivos csv
