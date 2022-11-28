@@ -1,4 +1,18 @@
 # docker_airflow
+## Inicializar o Airflow
+
+Pasta da instalação: apache-airflow/
+
+Verificar se o serviço está rodando:
+ps -aux | grep airflow
+
+Verificar o containier do doker
+docker compose ls
+
+Verificar o docker compose
+docker-compose up
+
+
 Projeto para a aprendizagem do docker e apache airflow. 
 Para instalar o apache airflow basta seguir os passos da documentação. Não encontrei nenhum problema .
 
@@ -18,8 +32,9 @@ Nome do arquivo: agencia_bancaria_dag.py
 ### Buscar criptmoedas:
 Objetivo: Utilizar essa código como base para aprendizagem
 Buscar os dados de um serviço e determinar qual das criptmoedas tem um  variação maior. 
+Nome do arquivo: diario_de_criptos_DAG.py 
 
 ### Buscar informações sobre o tempo:
-Objetivo: Obter os dados de um serviço de dados climaticos
-Buscar os dados do serviço e salvar em um arquivo
-
+Objetivo: Obter os dados de um serviço de dados climáticos e salvar em arquivos csv
+Buscar os dados do serviço https://weather.visualcrossing.com/VisualCrossingWebServices/ e salvar em arquivo csv. Utilizar o PythonOperator para criar a tarefa.
+Nome do arquivo: buscar_informacoes_tempo.py
