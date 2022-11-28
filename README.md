@@ -1,4 +1,7 @@
-# docker_airflow
+# Projeto docker_airflow
+
+Projeto para exemplo de códigos utilizando o Apache Airflow. 
+
 ## Inicializar o Airflow
 
 Pasta da instalação: apache-airflow/
