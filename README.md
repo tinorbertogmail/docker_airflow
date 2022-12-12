@@ -44,3 +44,6 @@ Nome do arquivo: diario_de_criptos_DAG.py
 Objetivo: Obter os dados de um serviço de dados climáticos e salvar em arquivos csv
 Buscar os dados do serviço https://weather.visualcrossing.com/VisualCrossingWebServices/ e salvar em arquivo csv. Utilizar o PythonOperator para criar a tarefa.
 Nome do arquivo: buscar_informacoes_tempo.py
+
+### Testar o Celery Executor 
+Umas das maneiras de instalar uma lib é rodar o pip no apache-airflow-airflow-scheduler-1
